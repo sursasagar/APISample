@@ -12,8 +12,8 @@ namespace APISample.Dto
         [Required]
         public Guid OrderServiceId { get; set; }
 
-        [Required]
-        public List<ServicesRecommendationAddDto>  servicesRecommendationAddDtos { get; set; }
+       
+        public List<ServicesRecommendationAddDto>  servicesRecommendationAddDtos { get; set; } = new List<ServicesRecommendationAddDto>();
 
     }
 }

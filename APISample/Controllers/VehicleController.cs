@@ -22,7 +22,7 @@ namespace APISample.Controllers
         }
 
        /// <summary>
-       /// get vehicle information 
+       /// get vehicle information , with mileage threshold limit
        /// </summary>
        /// <param name="id">VehicleId</param>
        /// <returns>Vehicle detail</returns>

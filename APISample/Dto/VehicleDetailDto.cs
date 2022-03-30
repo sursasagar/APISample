@@ -13,12 +13,9 @@ namespace APISample.Dto
         public string ModelName { get; set; }
         public string ImageURL { get; set; }
         public string AliasName { get; set; }
-        public string SMSVehicleId { get; set; }
-        public DateTime CreatedDateTime { get; set; }
-        public DateTime LastModifiedDateTime { get; set; }
-        public bool IsActive { get; set; }
+        public string SMSVehicleId { get; set; }       
 
-        public int ThreasholdMillage { get; set; }
+        public int ThresholdMileage { get; set; }
 
     }
 }

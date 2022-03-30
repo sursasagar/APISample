@@ -31,8 +31,8 @@ namespace APISample.Controllers
         /// </summary>
         /// <param name="getVehicleServicesRequestDto">  ThresholdMillage : above | below vehilce millage  </param>
         /// <returns>Return list of services with its types</returns>
-        [HttpGet("{thresholdMillage}")]        
-        public GetVehicleGroupSerivcesDto Get(string thresholdMillage)
+        [HttpGet("{thresholdMileage}")]        
+        public GetVehicleGroupSerivcesDto Get(string thresholdMileage)
         {
             return new GetVehicleGroupSerivcesDto();
         }

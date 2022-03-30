@@ -45,6 +45,7 @@ namespace APISample.Controllers
         [HttpGet("{id}")]
         public CustomerDetailDto Get(Guid id)
         {
+
             return new CustomerDetailDto();
         }
 

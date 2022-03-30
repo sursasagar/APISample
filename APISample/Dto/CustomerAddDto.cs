@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -25,8 +26,15 @@ namespace APISample.Dto
         [DataType(DataType.EmailAddress)]
         public string EmailAddress { get; set; }
 
-        [Required]
+        
         [DataType(DataType.Text)]
         public string VIN { get; set; }
+
+        [Required]
+        [DataType(DataType.Text)]
+        public string VehicleModelName { get; set; }
+
+        public IFormFile  VehicleImage { get; set; }
+
     }
 }

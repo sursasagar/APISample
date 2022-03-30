@@ -11,5 +11,7 @@ namespace APISample.Dto
         public Guid Id { get; set; }        
         public string ModelName { get; set; }
         public string ImageURL { get; set; }
+
+
     }
 }
